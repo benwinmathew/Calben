@@ -76,3 +76,12 @@ for(var i=0; i<number.length; i++){
         }
     });
 }
+
+function dt() {
+    if(document.getElementById("body").style.backgroundColor != "black"){
+        document.getElementById("body").style.backgroundColor = "black";
+    }
+    else{
+        document.getElementById("body").style.backgroundColor = "white";
+    }
+}

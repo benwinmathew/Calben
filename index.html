@@ -6,10 +6,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
         <title>A simple Calculator</title>
     </head>
-    <body>
-        A simple calculator
-        
+    <body id="body">
+
+
         <div id="container">
+            <div class="container">
+                <div class="toggle-out" 
+                onclick = "this.classList.toggle('active');dt()">
+                    <div class="toggle-in"></div>
+                </div>
+            </div>
             <div id="calculator">
                 <div id="result">
                     <div id="history">
